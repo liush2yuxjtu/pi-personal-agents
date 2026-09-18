@@ -1,0 +1,29 @@
+{
+  "name": "pi-personal-agents",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/tui.ts",
+    "serve": "tsx src/server-cli.ts",
+    "pr-review": "tsx src/pr-review.ts",
+    "test": "vitest run --config vitest.config.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@earendil-works/pi-tui": "0.84.4",
+    "@hono/node-server": "^1.13.0",
+    "hono": "4.12.12",
+    "openai": "7.15.0",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.4",
+    "tsx": "4.21.0",
+    "typescript": "7.0.2",
+    "vitest": "4.1.4"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

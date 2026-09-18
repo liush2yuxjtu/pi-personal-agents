@@ -1,0 +1,3 @@
+[submodule "vendor/open-managed-agents"]
+	path = vendor/open-managed-agents
+	url = https://github.com/openma-ai/open-managed-agents.git

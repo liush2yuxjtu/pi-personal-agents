@@ -1,0 +1,7 @@
+node_modules/
+.openma-pi-personal/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+.DS_Store

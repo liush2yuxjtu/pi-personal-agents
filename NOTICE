@@ -1,0 +1,5 @@
+Pi Personal Agents
+
+Copyright 2026 Pi Personal Agents contributors
+
+This repository uses Open Managed Agents as a pinned Git submodule dependency. See vendor/open-managed-agents/LICENSE and vendor/open-managed-agents/NOTICE for that dependency.
